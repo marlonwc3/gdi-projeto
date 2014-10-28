@@ -58,17 +58,17 @@ CREATE TABLE Aluguel
 
 CREATE TABLE Funcionario
 (
-	CPF char(14),
+	CPF varchar2(14),
 	Nivel_de_escolaridade varchar2(50),
-	RG char(9),
+	RG varchar2(9),
 	Estado_civil varchar2(50),
 	Sexo varchar2(50),
 	Data_de_nascimento date,
 	Primeiro_nome varchar2(50),
 	Sobrenome varchar2(50),
-	CEP char(10),
+	CEP varchar2(10),
 	Estado varchar2(50),
-	Numero char(14),
+	Numero varchar2(14),
 	Logradouro varchar2(50),
 	Bairro varchar2(50),
 	Cidade varchar2(50),
@@ -77,8 +77,8 @@ CREATE TABLE Funcionario
 
 CREATE TABLE Interno
 (
-	CPF char(14),
-	CPF_Supervisor char(14),
+	CPF varchar2(14),
+	CPF_Supervisor varchar2(14),
 	Data_de_contratacao date,
 	Funcao varchar2(50),
 	CONSTRAINT Interno_pkey PRIMARY KEY (CPF),
@@ -98,16 +98,16 @@ CREATE TABLE Atracao
 
 CREATE TABLE Telefone
 (
-	CNPJ char(18),
-	Numero char(14),
+	CNPJ varchar2(18),
+	Numero varchar2(14),
 	CONSTRAINT Telefone_pkey PRIMARY KEY (CNPJ),
 	CONSTRAINT Telefone_fkey FOREIGN KEY (CNPJ) REFERENCES Loja(CNPJ)
 );
 
 CREATE TABLE Telefone_Func
 (
-	CPF_FUNC char(14),
-	Numero char(14),
+	CPF_FUNC varchar2(14),
+	Numero varchar2(14),
 	CONSTRAINT Telefone_Func_pkey PRIMARY KEY (CPF_FUNC),
 	CONSTRAINT Telefone_Func_fkey FOREIGN KEY (CPF_FUNC) REFERENCES Funcionario(CPF)
 );
@@ -115,8 +115,8 @@ CREATE TABLE Telefone_Func
 
 CREATE TABLE Externo
 (
-	Loja_CNPJ char(18),
-	Funcionario_CPF char(14),
+	Loja_CNPJ varchar2(18),
+	Funcionario_CPF varchar2(14),
 	Grau_de_responsabilidade varchar2(50),
 	Tipo_de_acesso varchar2(50),
 	CONSTRAINT Externo_pkey PRIMARY KEY (Loja_CNPJ, Funcionario_CPF),
@@ -126,7 +126,7 @@ CREATE TABLE Externo
 
 CREATE TABLE Promocao_Loja
 (
-	Loja_CNPJ char(18),
+	Loja_CNPJ varchar2(18),
 	Promocao_Codigo integer,
 	categoria varchar2(50),
 	Porcentagem number(5, 2),
@@ -140,7 +140,7 @@ CREATE TABLE Promocao_Loja
 CREATE TABLE Aluguel_Loja
 (
 	Aluguel_Codigo integer,
-	Loja_CNPJ char(18),
+	Loja_CNPJ varchar2(18),
 	Pagamento_Codigo integer,
 	CONSTRAINT AluguelLoja_pkey PRIMARY KEY (Aluguel_Codigo, Loja_CNPJ, Pagamento_Codigo),
 	CONSTRAINT AluguelLoja_fkey1 FOREIGN KEY (Aluguel_Codigo) REFERENCES Aluguel(Codigo),
@@ -150,7 +150,7 @@ CREATE TABLE Aluguel_Loja
 
 CREATE TABLE Aloca
 (
-	Funcionario_CPF char(14),
+	Funcionario_CPF varchar2(14),
 	Area_Codigo integer,
 	Evento_Codigo integer,
 	CONSTRAINT Aloca_pkey PRIMARY KEY (Funcionario_CPF, Area_Codigo, Evento_Codigo),
