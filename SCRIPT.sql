@@ -7,7 +7,7 @@ CREATE TABLE Categoria
 
 CREATE TABLE Loja 
 (
-	CNPJ char(18),
+	CNPJ varchar2(18),
 	Tipo varchar2(50),
 	Email varchar2(50),
 	Publico_alvo varchar2(50),
