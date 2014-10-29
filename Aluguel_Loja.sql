@@ -1,0 +1,10 @@
+INSERT INTO Aluguel_Loja (Aluguel_Codigo, Loja_CNPJ, Pagamento_Codigo) VALUES (1, '86.814.375/0001-00', 10022334);
+INSERT INTO Aluguel_Loja (Aluguel_Codigo, Loja_CNPJ, Pagamento_Codigo) VALUES (2, '83.824.371/0001-00', 10034);
+INSERT INTO Aluguel_Loja (Aluguel_Codigo, Loja_CNPJ, Pagamento_Codigo) VALUES (3, '33.824.141/0002-00', 1004);
+INSERT INTO Aluguel_Loja (Aluguel_Codigo, Loja_CNPJ, Pagamento_Codigo) VALUES (4, '13.14.141/132-00', 10);
+INSERT INTO Aluguel_Loja (Aluguel_Codigo, Loja_CNPJ, Pagamento_Codigo) VALUES (5, '13.11.111/112-00', 1002);
+INSERT INTO Aluguel_Loja (Aluguel_Codigo, Loja_CNPJ, Pagamento_Codigo) VALUES (6, '23.13.131/112-12', 4);
+INSERT INTO Aluguel_Loja (Aluguel_Codigo, Loja_CNPJ, Pagamento_Codigo) VALUES (7, '23.11.121/132-11', 14);
+INSERT INTO Aluguel_Loja (Aluguel_Codigo, Loja_CNPJ, Pagamento_Codigo) VALUES (8, '93.15.128/112-11', 124);
+INSERT INTO Aluguel_Loja (Aluguel_Codigo, Loja_CNPJ, Pagamento_Codigo) VALUES (9, '82.43.132/193-63', 10334);
+INSERT INTO Aluguel_Loja (Aluguel_Codigo, Loja_CNPJ, Pagamento_Codigo) VALUES (10, '58.34.321/132-43', 9422334);
