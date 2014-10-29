@@ -1,0 +1,10 @@
+INSERT INTO Aloca (Funcionario_CPF, Area_Codigo, Evento_Codigo) VALUES ('000.000.000-1', 1, 1);
+INSERT INTO Aloca (Funcionario_CPF, Area_Codigo, Evento_Codigo) VALUES ('000.000.000-2', 2, 1);
+INSERT INTO Aloca (Funcionario_CPF, Area_Codigo, Evento_Codigo) VALUES ('000.000.000-3', 3, 2);
+INSERT INTO Aloca (Funcionario_CPF, Area_Codigo, Evento_Codigo) VALUES ('000.000.000-4', 4, 3);
+INSERT INTO Aloca (Funcionario_CPF, Area_Codigo, Evento_Codigo) VALUES ('000.000.000-5', 5, 3);
+INSERT INTO Aloca (Funcionario_CPF, Area_Codigo, Evento_Codigo) VALUES ('000.000.000-6', 6, 4);
+INSERT INTO Aloca (Funcionario_CPF, Area_Codigo, Evento_Codigo) VALUES ('000.000.000-7', 7, 5);
+INSERT INTO Aloca (Funcionario_CPF, Area_Codigo, Evento_Codigo) VALUES ('000.000.000-8', 8, 5);
+INSERT INTO Aloca (Funcionario_CPF, Area_Codigo, Evento_Codigo) VALUES ('000.000.000-9', 9, 6);
+INSERT INTO Aloca (Funcionario_CPF, Area_Codigo, Evento_Codigo) VALUES ('000.000.000-10', 10, 6);
