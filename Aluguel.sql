@@ -11,7 +11,7 @@ INSERT INTO Aluguel (Codigo, Data_de_vencimento, Valor, Descricao)
 VALUES (4, SYSDATE, 2444.23, 'mi nulla ac enim in tempor turpis nec euismod scelerisque');
 
 INSERT INTO Aluguel (Codigo, Data_de_vencimento, Valor, Descricao) 
-VALUES (5, SYSDATE, 977687.91, 'pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est');
+VALUES (5, SYSDATE, 900.91, 'pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est');
 
 INSERT INTO Aluguel (Codigo, Data_de_vencimento, Valor, Descricao)
 VALUES (6, SYSDATE, 538.33, 'amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices');
