@@ -94,6 +94,7 @@ CREATE TABLE Interno
 (
 	CPF varchar2(14),
 	CPF_Supervisor varchar2(14),
+	Salario number(7,2),
 	Data_de_contratacao date,
 	Funcao varchar2(50),
 	CONSTRAINT Interno_pkey PRIMARY KEY (CPF),
@@ -237,35 +238,35 @@ VALUES ('000.000.000-0', 'Media', '10', 'Casado', 'Masculino', TO_DATE('27/10/19
 
 
 
-INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao) 
-	VALUES ('000.000.000-1', '000.000.000-0', SYSDATE, 'Gerente');
+INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao, Salario) 
+	VALUES ('000.000.000-1', '000.000.000-0', SYSDATE, 'Gerente', 721.2);
 
-INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao) 
-	VALUES ('000.000.000-2', '000.000.000-0', SYSDATE, 'Atendente');
+INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao, Salario) 
+	VALUES ('000.000.000-2', '000.000.000-0', SYSDATE, 'Atendente', 456.2);
 
-INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao) 
-	VALUES ('000.000.000-3', '000.000.000-0', SYSDATE, 'Segurança');
+INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao, Salario) 
+	VALUES ('000.000.000-3', '000.000.000-0', SYSDATE, 'Segurança', 786.9);
 
-INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao) 
-	VALUES ('000.000.000-4', '000.000.000-0', SYSDATE, 'Segurança');
+INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao, Salario) 
+	VALUES ('000.000.000-4', '000.000.000-0', SYSDATE, 'Segurança', 4536.8);
 
-INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao) 
-	VALUES ('000.000.000-5', '000.000.000-2', SYSDATE, 'Gerente');
+INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao, Salario) 
+	VALUES ('000.000.000-5', '000.000.000-2', SYSDATE, 'Gerente', 245.7);
 
-INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao) 
-	VALUES ('000.000.000-6', '000.000.000-3', SYSDATE, 'Segurança');
+INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao, Salario) 
+	VALUES ('000.000.000-6', '000.000.000-3', SYSDATE, 'Segurança', 578);
 
-INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao) 
-	VALUES ('000.000.000-7', '000.000.000-4', SYSDATE, 'Atendente');
+INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao, Salario) 
+	VALUES ('000.000.000-7', '000.000.000-4', SYSDATE, 'Atendente', 785.8);
 
-INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao) 
-	VALUES ('000.000.000-8', '000.000.000-5', SYSDATE, 'Atendente');
+INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao, Salario) 
+	VALUES ('000.000.000-8', '000.000.000-5', SYSDATE, 'Atendente', 642.5);
 
-INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao) 
-	VALUES ('000.000.000-9', '000.000.000-6', SYSDATE, 'Higienizador');
+INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao, Salario) 
+	VALUES ('000.000.000-9', '000.000.000-6', SYSDATE, 'Higienizador', 684.4);
 
-INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao) 
-	VALUES ('000.000.000-10', '000.000.000-7', SYSDATE, 'Gerente');
+INSERT INTO Interno (CPF, CPF_Supervisor, Data_de_contratacao, Funcao, Salario) 
+	VALUES ('000.000.000-10', '000.000.000-7', SYSDATE, 'Gerente', 751.5);
 	
 INSERT INTO Externo (Loja_CNPJ,Funcionario_CPF,Grau_de_responsabilidade,Tipo_de_acesso) VALUES('86.814.375/0001-00', '000.000.000-1','Baixo','Total');
 INSERT INTO Externo (Loja_CNPJ,Funcionario_CPF,Grau_de_responsabilidade,Tipo_de_acesso) VALUES('86.814.375/0001-00', '000.000.000-2','Alto','Total');
