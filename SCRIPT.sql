@@ -150,6 +150,7 @@ CREATE TABLE Promocao_Loja
 	Porcentagem number(5, 2),
 	Descricao_Promocao varchar2(200),
 	Data_inicio date,
+	Data_fim date,
 	CONSTRAINT Promocao_Loja_pkey PRIMARY KEY (Loja_CNPJ, Promocao_Codigo, categoria),
 	CONSTRAINT Promocao_Loja_fkey1 FOREIGN KEY (Loja_CNPJ) REFERENCES Loja(CNPJ),
 	CONSTRAINT Promocao_Loja_fkey2 FOREIGN KEY (categoria) REFERENCES Categoria(categoria)
