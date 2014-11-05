@@ -28,3 +28,12 @@ VALUES ('82.43.132/193-63', 'Mercado', 'contato@hiper.com.br', 'Todos', 'Á vist
 
 INSERT INTO Loja (CNPJ, Tipo, Email, Publico_alvo, Forma_de_pagamento, Data_de_abertura, Nome_da_loja) 
 VALUES ('58.34.321/132-43', 'Loja', 'contato@rommanel.com.br', 'Adulto', 'Á vista', SYSDATE, 'Rommanel Jóias');
+
+INSERT INTO Loja (CNPJ, Tipo, Email, Publico_alvo, Forma_de_pagamento, Data_de_abertura, Nome_da_loja) 
+VALUES ('58.34.231/345-43', 'Livraria', 'contato@livrosa.com.br', 'Maratonista', 'Á vista', SYSDATE, 'Livros SA');
+
+INSERT INTO Loja (CNPJ, Tipo, Email, Publico_alvo, Forma_de_pagamento, Data_de_abertura, Nome_da_loja) 
+VALUES ('49.14.321/132-43', 'Livraria', 'contato@cultura.com.br', 'Maratonista', 'Á vista', SYSDATE, 'Cultura');
+
+INSERT INTO Loja (CNPJ, Tipo, Email, Publico_alvo, Forma_de_pagamento, Data_de_abertura, Nome_da_loja) 
+VALUES ('29.34.856/938-941', 'Eletronicos', 'contato@infobox.com.br', 'Maratonista', 'Á vista', SYSDATE, 'Infobox');
