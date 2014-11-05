@@ -1,3 +1,20 @@
+DROP TABLE Aloca;
+DROP TABLE Promocao_Loja;
+DROP TABLE Aluguel_Loja;
+DROP TABLE Pagamento;
+DROP TABLE Atracao;
+DROP TABLE Evento;
+DROP TABLE Area;
+DROP TABLE Aluguel;
+DROP TABLE Telefone;
+DROP TABLE Telefone_Func;
+DROP TABLE Categoria;
+DROP TABLE Externo;
+DROP TABLE Interno;
+DROP TABLE Funcionario;
+DROP TABLE Loja;
+
+
 CREATE TABLE Categoria
 (
 	categoria varchar2(50),
@@ -81,6 +98,7 @@ CREATE TABLE Interno
 	CPF_Supervisor varchar2(14),
 	Data_de_contratacao date,
 	Funcao varchar2(50),
+	Salario integer,
 	CONSTRAINT Interno_pkey PRIMARY KEY (CPF),
 	CONSTRAINT Interno_fkey FOREIGN KEY (CPF_Supervisor) REFERENCES Funcionario (CPF)
 );
