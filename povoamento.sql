@@ -286,6 +286,10 @@ values (9422334, TO_DATE('01/11/2014', 'dd/mm/yyyy'), 'Deposito', 343.20);
 
 #Area
 
+CREATE SEQUENCE Area_seq
+  start with 42
+  increment by 1;
+  
 INSERT INTO Area (Codigo, Tipo, Descricao , Altura , Comprimento , Largura ) 
 VALUES (1, 'Externa', ' Etiam justo. Etiam pretium iaculis justo..', 74.18, 20.9, 40.61);
 
