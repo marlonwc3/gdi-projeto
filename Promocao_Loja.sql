@@ -26,4 +26,4 @@ INSERT INTO Promocao_Loja (Loja_CNPJ, Promocao_Codigo, categoria, Porcentagem, D
 VALUES ('82.43.132/193-63', 89292, 'Cosméticos', 47.11, 'metus vitae ipsum aliquam non mauris morbi non', TO_DATE('13/09/2014', 'dd/mm/yyyy'), TO_DATE('20/09/2014', 'dd/mm/yyyy'));
 
 INSERT INTO Promocao_Loja (Loja_CNPJ, Promocao_Codigo, categoria, Porcentagem, Descricao_Promocao, Data_inicio, Data_fim)
-VALUES ('58.34.321/132-43', 43766, 'Esportivos', 29.57, 'felis donec semper sapien a libero', TO_DATE('05/09/2014', 'dd/mm/yyyy'), TO_DATE('05/19/2014', 'dd/mm/yyyy'));
+VALUES ('58.34.321/132-43', 43766, 'Esportivos', 29.57, 'felis donec semper sapien a libero', TO_DATE('05/09/2014', 'dd/mm/yyyy'), TO_DATE('05/09/2014', 'dd/mm/yyyy'));
